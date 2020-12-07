@@ -13,6 +13,8 @@
 		CE743D8E25752B1F00FFD814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE743D8C25752B1F00FFD814 /* Main.storyboard */; };
 		CE743D9025752B2500FFD814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE743D8F25752B2500FFD814 /* Assets.xcassets */; };
 		CE743D9325752B2500FFD814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE743D9125752B2500FFD814 /* LaunchScreen.storyboard */; };
+		CE743D9C25752FF200FFD814 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE743D9B25752FF200FFD814 /* SignInViewController.swift */; };
+		CE743D9F2575348C00FFD814 /* CandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE743D9E2575348C00FFD814 /* CandyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE743D8F25752B2500FFD814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE743D9225752B2500FFD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE743D9425752B2500FFD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE743D9B25752FF200FFD814 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CE743D9E2575348C00FFD814 /* CandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CE743D8825752B1F00FFD814 /* SceneDelegate.swift */,
 				CE743D8A25752B1F00FFD814 /* ViewController.swift */,
 				CE743D8C25752B1F00FFD814 /* Main.storyboard */,
+				CE743D9E2575348C00FFD814 /* CandyViewController.swift */,
+				CE743D9B25752FF200FFD814 /* SignInViewController.swift */,
 				CE743D8F25752B2500FFD814 /* Assets.xcassets */,
 				CE743D9125752B2500FFD814 /* LaunchScreen.storyboard */,
 				CE743D9425752B2500FFD814 /* Info.plist */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE743D9F2575348C00FFD814 /* CandyViewController.swift in Sources */,
+				CE743D9C25752FF200FFD814 /* SignInViewController.swift in Sources */,
 				CE743D8B25752B1F00FFD814 /* ViewController.swift in Sources */,
 				CE743D8725752B1F00FFD814 /* AppDelegate.swift in Sources */,
 				CE743D8925752B1F00FFD814 /* SceneDelegate.swift in Sources */,
